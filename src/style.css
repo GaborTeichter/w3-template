@@ -2,14 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-
 /* W3CSS Template */
+.w3-content {
+    max-width: 1200px;
+    background: #f0f0f0;
+}
+
+.w3-sidebar {
+    background: #222;
+    color: #eee;
+    z-index: 3;
+    width: 250px;
+}
+
 .w3-sidebar a {
     font-family: "Roboto", sans-serif
 }
 
 body,h1,h2,h3,h4,h5,h6,.w3-wide {
     font-family: "Montserrat", sans-serif;
+}
+
+.main-display {
+    color: #fb0505;
+    padding: 24px 48px;
 }
 
 /* W3CSS Template end*/
