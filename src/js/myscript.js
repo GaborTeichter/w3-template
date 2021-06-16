@@ -20,7 +20,7 @@ function myAccFunc() {
     }
   }
   
-  // Click on the "Jeans" link on page load to open the accordion for demo purposes
+  // Click on the link on page load to open the accordion for demo purposes
   document.getElementById("myBtn").click();
   
   

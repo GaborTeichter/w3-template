@@ -1,6 +1,7 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 
 /* W3CSS Template */
 .w3-content {
@@ -8,24 +9,46 @@
     background: #f0f0f0;
 }
 
+/* Sidebar */
 .w3-sidebar {
-    background: #222;
+    background: #232F3E;
     color: #eee;
     z-index: 3;
     width: 250px;
 }
 
 .w3-sidebar a {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
 }
+
+/* Sidebar end */
 
 body,h1,h2,h3,h4,h5,h6,.w3-wide {
     font-family: "Montserrat", sans-serif;
 }
 
 .main-display {
-    color: #fb0505;
+    /*color: #fb0505;*/
+    color: #ff9900;
     padding: 24px 48px;
 }
 
-/* W3CSS Template end*/
+/* W3CSS Template end */
+
+/* Subscribe */
+.subscribe-color {
+    background-color: #232F3E;
+    color: #eee;
+}
+
+/* Subscribe  end */
+
+/* Footer */
+.powered-color {
+    background-color: #131A22;
+    color: #eee;
+}
+
+/* Footer end */
+
+
