@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Electronics Webshop | W3.CSS</title>
+  <title>Electronics Webshop | About</title>
   <meta charset="UTF-8">
   <meta name="description" content="This is a online IT store. Category: webshop ">
   <meta name="keywords" content="IT, IT shop, webshop, online store">
@@ -24,17 +24,36 @@
     <h3 class="w3-wide"><b>Future Electronics</b></h3>
   </div>
   <div class="w3-padding-64 w3-large" style="font-weight:bold">
-    <a href="laptops.html" class="w3-bar-item w3-button">Laptops</a>
-    <a href="tablets_phones.html" class="w3-bar-item w3-button">Tablets & Phones</a>
-    <a href="household.html" class="w3-bar-item w3-button">Household</a>
-    <a href="smarthome.html" class="w3-bar-item w3-button">Smart Home</a>
-    <a href="gaming.html" class="w3-bar-item w3-button">Gaming</a>
-    <a href="music.html" class="w3-bar-item w3-button">Music Equipments</a>
-    <a href="network.html" class="w3-bar-item w3-button">Network</a>
+    <a href="#" class="w3-bar-item w3-button">Laptops</a>
+    <a href="#" class="w3-bar-item w3-button">Tablets & Phones</a>
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      Household <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <div class="w3-bar-item w3-button" onclick="myAccFunc2()">
+        Kitchen <i class="fa fa-caret-down"></i></div>
+        <div id="demoAcc2" class="w3-hide w3-white w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">Blenders, Mixers</a>
+          <a href="#" class="w3-bar-item w3-button">Food Processors</a>
+          <a href="#" class="w3-bar-item w3-button">Cooktops</a>
+          <a href="#" class="w3-bar-item w3-button">Coffee Machines</a>
+          <a href="#" class="w3-bar-item w3-button">Electric Knives</a>
+          <a href="#" class="w3-bar-item w3-button">Electric Steamers</a>
+          <a href="#" class="w3-bar-item w3-button">Grill</a>
+          <a href="#" class="w3-bar-item w3-button">Toasters</a>
+        </div>
+      <a href="#" class="w3-bar-item w3-button">Cleaning</a>
+      <a href="#" class="w3-bar-item w3-button">Home Improvement</a>
+      <a href="#" class="w3-bar-item w3-button">Garden</a>
+    </div>
+    <a href="#" class="w3-bar-item w3-button">Smart Home</a>
+    <a href="#" class="w3-bar-item w3-button">Gaming</a>
+    <a href="#" class="w3-bar-item w3-button">Music Equipments</a>
+    <a href="#" class="w3-bar-item w3-button">Network</a>
   </div>
   <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
-  <a href="#subscribe"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
 </nav>
 
 <!-- Top menu on small screens -->
@@ -52,124 +71,23 @@
   <!-- Push down content on small screens -->
   <div class="w3-hide-large" style="margin-top:83px"></div>
   
-  <!-- Top header -->
-  <header class="w3-container w3-xlarge">
-    <p class="w3-left">New Apple Products</p>
-    <p class="w3-right">
-      <i class="fa fa-shopping-cart w3-margin-right"></i>
-      <i class="fa fa-search"></i>
-    </p>
-  </header>
-
-  <!-- Image header -->
-  <div class="w3-display-container w3-container">
-    <img class="w3-opacity-min" src="img/macbook.jpg" alt="Macbook" style="width:100%">
-    <div class="w3-display-topleft main-display">
-      <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
-      <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
-      <h1 class="w3-hide-small">COLLECTION 2021</h1>
-      <p><a href="#new" class="w3-button w3-orange w3-hover-gray w3-padding-large w3-large">SHOP NOW</a></p>
-    </div>
-  </div>
-
-  <div class="w3-container w3-text-black" id="products">
-    <h3>Top Products</h3>
-  </div>
-
-  <!-- Product grid -->
-  <div class="w3-row ">
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <div class="w3-display-container">
-        <img class="w3-grayscale" src="img/macbook1.jpg" style="width:100%">
-        <div class="w3-display-middle w3-display-hover">
-          <button class="w3-button w3-orange">Buy now <i class="fa fa-shopping-cart"></i></button>
-        </div>
-      </div>
-        <p>Macbook Pro<br><b>$990.00</b></p>
-      </div>
-
-      <div class="w3-container">
-        <div class="w3-display-container">
-        <img class="w3-grayscale" src="img/dell.jpg" style="width:100%">
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-orange">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Dell<br><b>$699.00</b></p>
-      </div>
-    </div>
-
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <div class="w3-display-container">
-          <img class="w3-grayscale" src="img/ipadair.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft w3-orange">New</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-orange">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Apple Ipad Pro<br><b>$800.00</b></p>
-      </div>
-
-      <div class="w3-container">
-        <div class="w3-display-container">
-        <img class="w3-grayscale" src="img/iphone12.png" style="width:100%">
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-orange">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Apple Iphone 12<br><b>$600.00</b></p>
-      </div>
-    </div>
-
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <div class="w3-display-container">
-        <img class="w3-grayscale" src="img/huawei_p40.jpg" style="width:100%">
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-orange">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Huawei P40 Pro<br><b>$450.00</b></p>
-      </div>
-
-      <div class="w3-container">
-        <div class="w3-display-container">
-          <img class="w3-grayscale" src="img/asus_router.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft w3-orange">Sale</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-orange">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Asus Gaming Router<br><b class="w3-text-red">$150.00</b></p>
-      </div>
-    </div>
-
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <div class="w3-display-container">
-        <img class="w3-grayscale" src="img/samsung_watch.jpg" style="width:100%">
-        <span class="w3-tag w3-display-topleft w3-orange">Sale</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-orange">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Samsung Galaxy Watch<br><b>$250.00</b></p>
-      </div>
-
-      <div class="w3-container">
-        <div class="w3-display-container">
-        <img class="w3-grayscale" src="img/airpods.jpg" style="width:100%">
-        <span class="w3-tag w3-display-topleft w3-orange">Sale</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-orange">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Airpods<br><b>$130.00</b></p>
-      </div>
-    </div>
-  </div>
+ <!-- About us -->
+ <div class="w3-container"> 
+    <h2>Shipment</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis tellus velit, quis tristique sem egestas ac. 
+        Aenean et nibh nunc. Mauris blandit tincidunt tellus, feugiat tempus urna interdum vitae. Aliquam tempor venenatis 
+        egestas. Praesent maximus luctus tempor. Nunc pretium commodo sapien efficitur interdum. Maecenas tortor enim, gravida 
+        a lorem sit amet, ullamcorper consectetur elit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis tellus velit, quis tristique sem egestas ac. 
+        Aenean et nibh nunc. Mauris blandit tincidunt tellus, feugiat tempus urna interdum vitae. Aliquam tempor venenatis 
+        egestas. Praesent maximus luctus tempor. Nunc pretium commodo sapien efficitur interdum. Maecenas tortor enim, gravida 
+        a lorem sit amet, ullamcorper consectetur elit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis tellus velit, quis tristique sem egestas ac. 
+        Aenean et nibh nunc. Mauris blandit tincidunt tellus, feugiat tempus urna interdum vitae. Aliquam tempor venenatis 
+        egestas. Praesent maximus luctus tempor. Nunc pretium commodo sapien efficitur interdum. Maecenas tortor enim, gravida 
+        a lorem sit amet, ullamcorper consectetur elit.</p>
+ </div>
+ <br>
 
   <!-- Subscribe section -->
   <div class="w3-container w3-padding-32 subscribe-color">
@@ -180,7 +98,7 @@
   </div>
   
   <!-- Footer -->
-  <footer class="w3-padding-64 w3-footer w3-small w3-center" id="footer">
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
     <div class="w3-row-padding">
       <div class="w3-col s4">
         <h4>Contact</h4>
@@ -232,7 +150,7 @@
 <!-- Newsletter Modal -->
 <div id="newsletter" class="w3-modal">
   <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
-    <div class="w3-container w3-center">
+    <div class="w3-container w3-white w3-center">
       <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
       <h2 class="w3-wide">NEWSLETTER</h2>
       <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
