@@ -5,11 +5,11 @@
 /* W3CSS Template */
 .w3-content {
     max-width: 1200px;
-    background: #f0f0f0;
+    background: #fff;
 }
 
 .w3-sidebar {
-    background: #222;
+    background: #232F3E;
     color: #eee;
     z-index: 3;
     width: 250px;
@@ -28,4 +28,19 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
     padding: 24px 48px;
 }
 
+.subscribe-section {
+    background-color: #05A0D1;
+    color: #fff;
+}
+
 /* W3CSS Template end*/
+
+/* Footer section */
+.w3-footer {
+    background-color: #131921;
+    color: #fff;
+}
+
+.w3-footer a {
+    text-decoration: none;
+}
