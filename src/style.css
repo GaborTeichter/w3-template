@@ -23,6 +23,12 @@
 
 /* Sidebar end */
 
+/* Menu on small screens */
+.w3-bar {
+    background: #232F3E;
+    color: #eee;
+}
+
 body,h1,h2,h3,h4,h5,h6,.w3-wide {
     font-family: "Montserrat", sans-serif;
 }
@@ -44,9 +50,20 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
 /* Subscribe  end */
 
 /* Footer */
+.w3-footer a {
+    text-decoration: none;
+}
+.w3-footer a:hover {
+    text-decoration: underline;
+}
+
 .powered-color {
     background-color: #131A22;
     color: #eee;
+}
+
+.w3-card-4 {
+    margin: 10px;
 }
 
 /* Footer end */
