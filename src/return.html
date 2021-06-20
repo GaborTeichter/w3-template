@@ -24,32 +24,14 @@
     <h3 class="w3-wide"><b>Future Electronics</b></h3>
   </div>
   <div class="w3-padding-64 w3-large" style="font-weight:bold">
-    <a href="#" class="w3-bar-item w3-button">Laptops</a>
-    <a href="#" class="w3-bar-item w3-button">Tablets & Phones</a>
-    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
-      Household <i class="fa fa-caret-down"></i>
-    </a>
-    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <div class="w3-bar-item w3-button" onclick="myAccFunc2()">
-        Kitchen <i class="fa fa-caret-down"></i></div>
-        <div id="demoAcc2" class="w3-hide w3-white w3-card-4">
-          <a href="#" class="w3-bar-item w3-button">Blenders, Mixers</a>
-          <a href="#" class="w3-bar-item w3-button">Food Processors</a>
-          <a href="#" class="w3-bar-item w3-button">Cooktops</a>
-          <a href="#" class="w3-bar-item w3-button">Coffee Machines</a>
-          <a href="#" class="w3-bar-item w3-button">Electric Knives</a>
-          <a href="#" class="w3-bar-item w3-button">Electric Steamers</a>
-          <a href="#" class="w3-bar-item w3-button">Grill</a>
-          <a href="#" class="w3-bar-item w3-button">Toasters</a>
-        </div>
-      <a href="#" class="w3-bar-item w3-button">Cleaning</a>
-      <a href="#" class="w3-bar-item w3-button">Home Improvement</a>
-      <a href="#" class="w3-bar-item w3-button">Garden</a>
-    </div>
-    <a href="#" class="w3-bar-item w3-button">Smart Home</a>
-    <a href="#" class="w3-bar-item w3-button">Gaming</a>
-    <a href="#" class="w3-bar-item w3-button">Music Equipments</a>
-    <a href="#" class="w3-bar-item w3-button">Network</a>
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="laptops.html" class="w3-bar-item w3-button">Laptops</a>
+    <a href="tablets_phones.html" class="w3-bar-item w3-button">Tablets & Phones</a>
+    <a href="household.html" class="w3-bar-item w3-button">Household</a>
+    <a href="smarthome.html" class="w3-bar-item w3-button">Smart Home</a>
+    <a href="gaming.html" class="w3-bar-item w3-button">Gaming</a>
+    <a href="music.html" class="w3-bar-item w3-button">Music Equipments</a>
+    <a href="network.html" class="w3-bar-item w3-button">Network</a>
   </div>
   <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
@@ -57,7 +39,7 @@
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+<header class="w3-bar w3-top w3-hide-large w3-xlarge mobile-view">
   <div class="w3-bar-item w3-padding-24 w3-wide">Future Electronics</div>
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 </header>
@@ -87,6 +69,56 @@
         egestas. Praesent maximus luctus tempor. Nunc pretium commodo sapien efficitur interdum. Maecenas tortor enim, gravida 
         a lorem sit amet, ullamcorper consectetur elit.</p>
  </div>
+ <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-gray w3-left-align">Your order</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <ul class="w3-ul w3-border">
+    <li>
+      <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GCBBSZMUXA6U2P8R"  class="w3-bar-item shipment-link" target="_blank">
+        About Customs, Duties & Taxes
+      </a>
+    </li>
+    <li>
+      <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GCBBSZMUXA6U2P8R"  class="w3-bar-item shipment-link" target="_blank">
+        Global Export Countries and Regions
+      </a>
+    </li>
+  </ul>
+</div>
+<button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-gray w3-left-align">Law</button>
+<div id="Demo2" class="w3-container w3-hide">
+  <ul class="w3-ul w3-border">
+    <li>
+      <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GCNQVPEFZLZZVLVY"  class="w3-bar-item shipment-link" target="_blank">
+        Delivery Guarantees
+      </a>
+    </li>
+    <li>
+      <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GUZ78EGEHW83RWD2"  class="w3-bar-item shipment-link" target="_blank">
+        Shipping Restrictions
+      </a>
+    </li>
+    <li>
+      <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=G77VXWB69X2D9M6J"  class="w3-bar-item shipment-link" target="_blank">
+        More General Shipping Policies
+      </a>
+    </li>
+  </ul>
+</div>
+<button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-gray w3-left-align">Guarantee</button>
+<div id="Demo3" class="w3-container w3-hide">
+  <ul class="w3-ul">
+    <li>
+      <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GZXW7X6AKTHNUP6H"  class="w3-bar-item shipment-link" target="_blank">
+        Order with Free Shipping 
+      </a>
+    </li>
+    <li>
+      <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=G5E3Q5RUMSDMZU4B"  class="w3-bar-item shipment-link" target="_blank">
+        Delivery of Large or Bulky Items
+      </a>
+    </li>
+  </ul>
+</div>
  <br>
 
   <!-- Subscribe section -->

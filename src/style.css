@@ -21,6 +21,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+.mobile-view{
+    background: #232F3E;
+    color: #eee;
+}
+
 /* Sidebar end */
 
 body,h1,h2,h3,h4,h5,h6,.w3-wide {
@@ -42,6 +47,44 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
 }
 
 /* Subscribe  end */
+
+/* Contact button */
+.large-button{
+    margin: 0;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* Contact button  end */
+
+/* GDPR link */
+.gdpr-link{
+    text-decoration: none; 
+    color: #ff9900;   
+}
+.gdpr-link:hover{
+    text-decoration: underline;    
+}
+/* GDPR link  end */
+
+/* shipment link */
+.shipment-link{
+    text-decoration: none;  
+    color: #ff9900;   
+}
+.shipment-link:hover{
+    text-decoration: underline;  
+}
+/* shipment link  end */
+
+/* payment section */
+.payment-section{
+    text-align: justify;
+}
+.payment-label{
+    font-weight: bold;
+}
+/* payment section end */
 
 /* Footer */
 .powered-color {
