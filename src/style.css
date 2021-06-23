@@ -90,6 +90,21 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
 .payment-label{
     font-weight: bold;
 }
+
+.same{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    margin: auto;
+  }
+  
+  /* @media screen and (max-width: 1116px) {
+      .same {
+        overflow: scroll;
+      }
+    }*/
+    
 /* payment section end */
 
 /* Footer */
