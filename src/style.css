@@ -107,6 +107,15 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
     
 /* payment section end */
 
+/* product page */
+.fa-star {
+    color: #ff9900;
+}
+
+.shopping-buttons {
+    margin: 10px 0;
+}
+
 /* Footer */
 .w3-footer a {
     text-decoration: none;
